@@ -1,5 +1,9 @@
 # README
 
+``` curl -XPOST http://localhost:8910/.redwood/functions/callback  -H "Content-Type: application/json" -d '{"buildID":"test","deploymentID":"test", "machineID":"test", "publicIP":"123", "privateIP":"123"}'
+
+```
+
 Welcome to [RedwoodJS](https://redwoodjs.com)!
 
 > **Prerequisites**
